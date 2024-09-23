@@ -49,6 +49,7 @@ def save_to_json(data, output_path):
     with open(output_path, 'w') as f:
         json.dump(data, f, indent=4)
 
+
 def process_logs(path):
     if os.path.isfile(path):
         log_files = [path]
